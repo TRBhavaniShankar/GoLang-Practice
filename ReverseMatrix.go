@@ -23,7 +23,7 @@ func main() {
 // function to reverse the matrix
 // m : number of rows
 // n : number of columns
-// Traversing matrix complexity : O(mXn)
+// Traversing matrix Time complexity : O(mXn)
 func reverseMatrix(matrix [][]int, m int, n int) (reversedMatrix [][]int) {
 
 	// traverse the matrix column wise
