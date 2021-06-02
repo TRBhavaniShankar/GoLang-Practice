@@ -39,6 +39,10 @@ func main() {
 // openBrackets: containes the list of open brackets
 // stack: stack to keep track of the open brackets encountered
 // brackets: matching closing brackets with opening brackets
+
+// As we traverse the entire characters in the input string the
+// compalixity of the algorithm is O(n) where n is the total
+// length of the input string
 func checkForBalancedBrackets(stringVal string, openBrackets map[string]bool, stack []string, brackets map[string]string) (result string) {
 
 	// loop through the input string's indivisual characters
