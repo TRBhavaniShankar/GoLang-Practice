@@ -20,12 +20,12 @@ func main() {
 
 	// Given Input string 1
 	var givenStringVal1 string = "{[()]}"
-	fmt.Println("Input 1: " + givenStringVal1)
+	fmt.Println("Given Input 1: " + givenStringVal1)
 	fmt.Println(checkForBalancedBrackets(givenStringVal1, openBrackets, []string{}, brackets))
 
 	// Given Input string 1
 	var givenStringVal2 string = "{[(])}"
-	fmt.Println("Input 1: " + givenStringVal2)
+	fmt.Println("Given Input 2: " + givenStringVal2)
 	fmt.Println(checkForBalancedBrackets(givenStringVal2, openBrackets, []string{}, brackets))
 
 	// Input string 1
